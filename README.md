@@ -21,7 +21,7 @@ It could be useful for:
 - SLAM in environments with sparse but meaningful objects  
 
 <p align="center">
-  <img src="docs/demo_screenshot.png" width="600"/>
+  <img src="/docs/nav_pic.png" width="600"/>
 </p>
 
 ▶️ [Click to watch the demo video](https://www.youtube.com/watch?v=AGsYb76OiyI)
