@@ -41,10 +41,10 @@ It could be useful for:
 
 ## 🔭 Future Work
 
-- [ ] Add support for 3D LiDAR or RGB-D camera-based object detection
-- [ ] Improve object classification (e.g., cone vs. wall)
-- [ ] Evaluate SLAM quality quantitatively
-- [ ] Apply to real-world TurtleBot3 with real sensors
+- Add support for 3D LiDAR or RGB-D camera-based object detection
+- Improve object classification (e.g., cone vs. wall)
+- Evaluate SLAM quality quantitatively
+- Apply to real-world TurtleBot3 with real sensors
 
 ---
 
