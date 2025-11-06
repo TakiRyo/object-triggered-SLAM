@@ -1,9 +1,24 @@
 # Object Triggered SLAM
 
 This project implements a **ROS 2-based SLAM system triggered by object detection** using 2D LiDAR data.  
-When an object (e.g. cone-like shape) is detected from LiDAR clustering, the robot automatically navigates to the object's location and continues mapping.  
+When the robot detects objects (e.g., table-like clusters) via LiDAR clustering, it navigates toward them and continues mapping — enabling **efficient, object-driven exploration**.
 
-This approach reduces unnecessary exploration and focuses on mapping object-relevant regions.
+---
+
+## 💡 Motivation
+
+In real-world robotics, blindly exploring every corner is inefficient.  
+This project proposes a smarter method — **triggering exploration only when the robot detects something of interest.**
+
+It could be useful for:
+- Object-based search missions
+- Warehouse robot tasks
+- SLAM in environments with sparse but meaningful objects  
+
+>  **Current Status**:  
+> - Implemented **2D LiDAR-based object detection**
+> - Using **TurtleBot3 Waffle Pi** as the base robot in Gazebo simulation
+> - Preparing a **demo video** to showcase functionality
 
 <p align="center">
   <img src="docs/demo_screenshot.png" width="600"/>
@@ -22,7 +37,16 @@ This approach reduces unnecessary exploration and focuses on mapping object-rele
 - Euclidean clustering for object candidate detection
 - Integration with SLAM Toolbox (async mode)
 - Navigation to target objects using Nav2
-- Gazebo simulation with TurtleBot3 and custom four-wheel robot
+- Gazebo simulation with TurtleBot3 Waffle Pi
+
+---
+
+## 🔭 Future Work
+
+- [ ] Add support for 3D LiDAR or RGB-D camera-based object detection
+- [ ] Improve object classification (e.g., cone vs. wall)
+- [ ] Evaluate SLAM quality quantitatively
+- [ ] Apply to real-world TurtleBot3 with real sensors
 
 ---
 
@@ -39,14 +63,3 @@ This approach reduces unnecessary exploration and focuses on mapping object-rele
 > ```bash
 > export TURTLEBOT3_MODEL=waffle_pi
 > ```
-
----
-
-## 🚀 How to Use
-
-```bash
-# Clone the repo
-git clone https://github.com/TakiRyo/object-triggered-SLAM.git
-cd object-triggered-SLAM/ros2_ws
-colcon build --symlink-install
-source install/setup.bash
