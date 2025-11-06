@@ -3,6 +3,11 @@
 This project implements a **ROS 2-based SLAM system triggered by object detection** using 2D LiDAR data.  
 When the robot detects objects (e.g., table-like clusters) via LiDAR clustering, it navigates toward them and continues mapping — enabling **efficient, object-driven exploration**.
 
+>  **Current Status**:  
+> - Implemented **2D LiDAR-based object detection**
+> - Using **TurtleBot3 Waffle Pi** as the base robot in Gazebo simulation
+> - Preparing a **demo video** to showcase functionality
+
 ---
 
 ## 💡 Motivation
@@ -14,11 +19,6 @@ It could be useful for:
 - Object-based search missions
 - Warehouse robot tasks
 - SLAM in environments with sparse but meaningful objects  
-
->  **Current Status**:  
-> - Implemented **2D LiDAR-based object detection**
-> - Using **TurtleBot3 Waffle Pi** as the base robot in Gazebo simulation
-> - Preparing a **demo video** to showcase functionality
 
 <p align="center">
   <img src="docs/demo_screenshot.png" width="600"/>
