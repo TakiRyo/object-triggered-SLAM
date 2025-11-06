@@ -24,12 +24,7 @@ It could be useful for:
   <img src="docs/demo_screenshot.png" width="600"/>
 </p>
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=AGsYb76OiyI"><img src="docs/demo_thumbnail.gif" width="600"/></a><br>
-  <em>▶️ Click to watch the demo video</em>
-</p>
-
-▶️ [Click to watch the demo video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+▶️ [Click to watch the demo video](https://www.youtube.com/watch?v=AGsYb76OiyI)
 
 
 ---
