@@ -29,6 +29,9 @@ It could be useful for:
   <em>▶️ Click to watch the demo video</em>
 </p>
 
+▶️ [Click to watch the demo video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+
 ---
 
 ## 📦 Features
