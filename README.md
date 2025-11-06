@@ -25,7 +25,7 @@ It could be useful for:
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/your_video_link"><img src="docs/demo_thumbnail.gif" width="600"/></a><br>
+  <a href="https://www.youtube.com/watch?v=AGsYb76OiyI"><img src="docs/demo_thumbnail.gif" width="600"/></a><br>
   <em>▶️ Click to watch the demo video</em>
 </p>
 
